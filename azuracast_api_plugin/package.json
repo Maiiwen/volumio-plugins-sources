@@ -1,0 +1,36 @@
+{
+	"name": "azuracast_api_plugin",
+	"version": "1.0.0",
+	"description": "Volumio 3 plugin to use AzuraCast webradios from AzuraCast's REST API",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Maiiwen__",
+	"license": "ISC",
+	"repository": "https://github.com/yourname/yourrepo",
+	"volumio_info": {
+		"prettyName": "AzuraCast API Plugin",
+		"icon": "fa-lightbulb-o",
+		"plugin_type": "music_service",
+		"architectures": [
+			"amd64",
+			"armhf",
+			"i386"
+		],
+		"os": [
+			"buster"
+		],
+		"details": "Lorem ipsum",
+		"changelog": "Lorem ipsum"
+	},
+	"engines": {
+		"node": ">=14.15.4 <15.0.0",
+		"volumio": ">=3.429.0 <4.0.0"
+	},
+	"dependencies": {
+		"fs-extra": "^0.28.0",
+		"kew": "^0.7.0",
+		"v-conf": "^1.4.0"
+	}
+}
